@@ -1,4 +1,19 @@
-*.log
-*.tar.gz
-backup.sh
-/backups/
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+venv/
+.venv/
+```
